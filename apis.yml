@@ -1,0 +1,147 @@
+aid: verso
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/verso/refs/heads/main/apis.yml
+name: Verso Corporation
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Paper
+  - Coated Paper
+  - Specialty Paper
+  - Pulp
+  - Manufacturing
+  - Publishing
+  - Packaging
+description: >-
+  Verso Corporation (NYSE: VRS) was a North American producer of coated papers
+  including coated groundwood, coated freesheet, and specialty products used in
+  magazines, catalogs, commercial print, books, and packaging. Headquartered in
+  Miamisburg, Ohio, Verso operated mills in Wisconsin Rapids (Wisconsin),
+  Escanaba (Michigan), Duluth (Minnesota), and historically Luke (Maryland).
+  In March 2022, Swedish pulp and paper group BillerudKorsnäs (now Billerud)
+  completed its acquisition of Verso for $825 million in cash, taking the
+  company private and rebranding it as Billerud Americas Corporation. The
+  Verso standalone brand, ticker, and corporate web presence have been retired;
+  ongoing North American operations, paper grades, and customer relationships
+  now sit inside Billerud's global business.
+created: '2026-05-22'
+modified: '2026-05-22'
+specificationVersion: '0.19'
+apis:
+  - aid: verso:verso-coated-paper
+    name: Verso Coated Paper
+    tags:
+      - Coated Paper
+      - Coated Groundwood
+      - Coated Freesheet
+      - Magazines
+      - Catalogs
+      - Commercial Print
+    humanURL: https://www.billerud.com
+    properties:
+      - url: https://www.billerud.com
+        type: Documentation
+    description: >-
+      Coated groundwood and coated freesheet paper grades used by magazine
+      publishers, catalog retailers, and commercial printers. Legacy Verso brands
+      and grades are now produced and sold through Billerud Americas following
+      the March 2022 acquisition.
+
+  - aid: verso:verso-specialty-paper
+    name: Verso Specialty Paper
+    tags:
+      - Specialty Paper
+      - Label Paper
+      - Release Paper
+      - Packaging Paper
+      - Technical Paper
+    humanURL: https://www.billerud.com
+    properties:
+      - url: https://www.billerud.com
+        type: Documentation
+    description: >-
+      Specialty paper products including label stock, release liners, technical
+      papers, and packaging papers manufactured at the former Verso mill network
+      across Wisconsin, Michigan, and Minnesota, now operated by Billerud Americas.
+
+  - aid: verso:verso-pulp
+    name: Verso Pulp
+    tags:
+      - Pulp
+      - Market Pulp
+      - Northern Bleached Hardwood Kraft
+      - NBHK
+    humanURL: https://www.billerud.com
+    properties:
+      - url: https://www.billerud.com
+        type: Documentation
+    description: >-
+      Market pulp products historically produced at integrated mill sites in
+      the Verso footprint, now part of Billerud Americas' North American pulp
+      and paper supply.
+
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/billerud
+  - type: Website
+    url: https://www.billerud.com
+  - type: Features
+    data:
+      - name: Coated Groundwood Paper
+        description: >-
+          Coated mechanical paper grades engineered for magazines, catalogs, inserts,
+          and high-volume commercial print runs requiring strong print quality at
+          competitive basis weights.
+      - name: Coated Freesheet Paper
+        description: >-
+          Higher-end coated freesheet grades for premium magazines, annual reports,
+          marketing collateral, and book publishing applications.
+      - name: Specialty And Technical Papers
+        description: >-
+          Label papers, release liners, and technical specialty grades supporting
+          packaging converters and industrial print customers across North America.
+      - name: Integrated Mill Network
+        description: >-
+          Pulp and paper mills in Wisconsin Rapids (WI), Escanaba (MI), and Duluth (MN)
+          providing integrated fiber sourcing, pulping, and paper production.
+      - name: Market Pulp Supply
+        description: >-
+          Market pulp output from integrated mills supplying internal paper machines
+          and external pulp buyers.
+  - type: UseCases
+    data:
+      - name: Magazine Publishing
+        description: >-
+          Coated groundwood and freesheet grades supplied to North American magazine
+          publishers for editorial and advertising print.
+      - name: Catalog And Retail Inserts
+        description: >-
+          High-brightness coated papers used in retail catalogs, weekly inserts,
+          and direct mail marketing campaigns.
+      - name: Commercial Print
+        description: >-
+          Coated grades supplied to commercial printers for brochures, annual
+          reports, and marketing collateral.
+      - name: Book Publishing
+        description: >-
+          Specialty book grades supporting trade and educational publishers.
+      - name: Label And Packaging Converting
+        description: >-
+          Specialty release and label papers feeding packaging converters serving
+          consumer goods, food, and industrial markets.
+  - type: Integrations
+    data:
+      - name: Billerud Americas Corporation
+        description: >-
+          Verso Corporation was acquired by Swedish pulp and paper group
+          BillerudKorsnäs (now Billerud) in March 2022 for $825 million in cash
+          and rebranded as Billerud Americas Corporation. The Verso standalone
+          brand, NYSE listing (VRS), and corporate website have been retired.
+      - name: Billerud Global Operations
+        description: >-
+          Former Verso mill network in Wisconsin, Michigan, and Minnesota now sits
+          inside Billerud's global pulp and paper portfolio alongside European
+          operations focused on primary fiber-based packaging materials.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
