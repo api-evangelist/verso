@@ -81,6 +81,10 @@ apis:
       and paper supply.
 
 common:
+  - type: VulnerabilityDisclosure
+    url: security/verso-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/verso-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/billerud
   - type: Website
