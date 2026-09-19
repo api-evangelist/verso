@@ -57,6 +57,13 @@ apis:
       - Coated Groundwood
       - Coated Freesheet
       - Magazines
+      - Catalog
+      - Commercial Print
+    tags_raw:
+      - Coated Paper
+      - Coated Groundwood
+      - Coated Freesheet
+      - Magazines
       - Catalogs
       - Commercial Print
     humanURL: https://www.billerud.com
