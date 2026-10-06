@@ -47,7 +47,7 @@ description: >-
   ongoing North American operations, paper grades, and customer relationships
   now sit inside Billerud's global business.
 created: '2026-05-22'
-modified: '2026-05-22'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: verso:verso-coated-paper
@@ -110,6 +110,8 @@ apis:
       and paper supply.
 
 common:
+  - url: https://www.billerud.com/press--news/news
+    type: Blog
   - type: VulnerabilityDisclosure
     url: security/verso-vulnerability-disclosure.yml
   - type: DomainSecurity
