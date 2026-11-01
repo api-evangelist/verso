@@ -1,4 +1,4 @@
-# Verso Corporation (verso)
+# Verso Corporation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,94 +66,85 @@
 
 Verso Corporation (NYSE: VRS) was a North American producer of coated papers including coated groundwood, coated freesheet, and specialty products used in magazines, catalogs, commercial print, books, and packaging. Headquartered in Miamisburg, Ohio, Verso operated mills in Wisconsin Rapids (Wisconsin), Escanaba (Michigan), Duluth (Minnesota), and historically Luke (Maryland). In March 2022, Swedish pulp and paper group BillerudKorsnäs (now Billerud) completed its acquisition of Verso for $825 million in cash, taking the company private and rebranding it as Billerud Americas Corporation. The Verso standalone brand, ticker, and corporate web presence have been retired; ongoing North American operations, paper grades, and customer relationships now sit inside Billerud's global business.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/verso/refs/heads/main/apis.yml)
+**Areas:** Paper · Coated Paper · Specialty Paper · Pulp · Manufacturing · Publishing · Packaging
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Verso Corporation on APIs.io
 
-## Tags:
+Everything profiled for Verso Corporation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/verso/](https://apis.io/providers/verso/)** — or go straight to one of the APIs or properties below.
 
- - Paper, Coated Paper, Specialty Paper, Pulp, Manufacturing, Publishing, Packaging
+### APIs (3)
 
-## Timestamps
+- [Verso Coated Paper](https://apis.io/apis/verso/verso-coated-paper/) — Coated groundwood and coated freesheet paper grades used by magazine publishers, catalog retailers, and commercial printers. Legacy Verso brands and grades…
+- [Verso Specialty Paper](https://apis.io/apis/verso/verso-specialty-paper/) — Specialty paper products including label stock, release liners, technical papers, and packaging papers manufactured at the former Verso mill network across…
+- [Verso Pulp](https://apis.io/apis/verso/verso-pulp/) — Market pulp products historically produced at integrated mill sites in the Verso footprint, now part of Billerud Americas' North American pulp and paper supply.
 
-- **Created:** 2026-05-22
-- **Modified:** 2026-05-22
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Verso Coated Paper
-Coated groundwood and coated freesheet paper grades used by magazine publishers, catalog retailers, and commercial printers. Legacy Verso brands and grades are now produced and sold through Billerud Americas following the March 2022 acquisition.
+#### Security (2)
 
-**Human URL:** [https://www.billerud.com](https://www.billerud.com)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Verso Domain Security](https://apis.io/security/verso/verso-domain-security/)
+- [Verso Vulnerability Disclosure](https://apis.io/security/verso/verso-vulnerability-disclosure/)
 
- - Coated Paper, Coated Groundwood, Coated Freesheet, Magazines, Catalogs, Commercial Print
+## Where to find this API
 
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Documentation](https://www.billerud.com)
-
-### Verso Specialty Paper
-Specialty paper products including label stock, release liners, technical papers, and packaging papers manufactured at the former Verso mill network across Wisconsin, Michigan, and Minnesota, now operated by Billerud Americas.
-
-**Human URL:** [https://www.billerud.com](https://www.billerud.com)
-
-#### Tags:
-
- - Specialty Paper, Label Paper, Release Paper, Packaging Paper, Technical Paper
-
-#### Properties
-
-- [Documentation](https://www.billerud.com)
-
-### Verso Pulp
-Market pulp products historically produced at integrated mill sites in the Verso footprint, now part of Billerud Americas' North American pulp and paper supply.
-
-**Human URL:** [https://www.billerud.com](https://www.billerud.com)
-
-#### Tags:
-
- - Pulp, Market Pulp, Northern Bleached Hardwood Kraft, NBHK
-
-#### Properties
-
-- [Documentation](https://www.billerud.com)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/billerud)
 - [Website](https://www.billerud.com)
+- [Blog](https://www.billerud.com/press--news/news)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Coated Groundwood Paper | Coated mechanical paper grades engineered for magazines, catalogs, inserts, and high-volume commercial print runs requiring strong print quality at competitive basis weights. |
-| Coated Freesheet Paper | Higher-end coated freesheet grades for premium magazines, annual reports, marketing collateral, and book publishing applications. |
-| Specialty And Technical Papers | Label papers, release liners, and technical specialty grades supporting packaging converters and industrial print customers across North America. |
-| Integrated Mill Network | Pulp and paper mills in Wisconsin Rapids (WI), Escanaba (MI), and Duluth (MN) providing integrated fiber sourcing, pulping, and paper production. |
-| Market Pulp Supply | Market pulp output from integrated mills supplying internal paper machines and external pulp buyers. |
+**Kin Score 8.1** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
 
-| Name | Description |
-|------|-------------|
-| Magazine Publishing | Coated groundwood and freesheet grades supplied to North American magazine publishers for editorial and advertising print. |
-| Catalog And Retail Inserts | High-brightness coated papers used in retail catalogs, weekly inserts, and direct mail marketing campaigns. |
-| Commercial Print | Coated grades supplied to commercial printers for brochures, annual reports, and marketing collateral. |
-| Book Publishing | Specialty book grades supporting trade and educational publishers. |
-| Label And Packaging Converting | Specialty release and label papers feeding packaging converters serving consumer goods, food, and industrial markets. |
+**Agent readiness 0.0** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Billerud Americas Corporation | Verso Corporation was acquired by Swedish pulp and paper group BillerudKorsnäs (now Billerud) in March 2022 for $825 million in cash and rebranded as Billerud Americas Corporation. The Verso standalone brand, NYSE listing (VRS), and corporate website have been retired. |
-| Billerud Global Operations | Former Verso mill network in Wisconsin, Michigan, and Minnesota now sits inside Billerud's global pulp and paper portfolio alongside European operations focused on primary fiber-based packaging materials. |
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/verso/](https://apis.io/providers/verso/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Verso Corporation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/verso/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
